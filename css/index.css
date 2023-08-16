@@ -64,18 +64,49 @@ body{ width: 100%; height: 100%;}
 
 .center .center-wrap .center-ad1 .QR-code img{width: 100%; }
 .center .center-wrap .center-ad8 h2{text-align: left; margin: 0 40px;}
-.center .center-wrap .center-ad8 ul {width: 100%;}
-.center .center-wrap .center-ad8 ul li{display: flex;justify-content: center; }
-.center .center-wrap .center-ad8 ul li a:nth-child(1){flex-basis:200%;padding-right: 6px;}
-.center .center-wrap .center-ad8 ul li a:nth-child(2){flex-basis: 200%; padding-left: 6px;}
+.center .center-wrap .center-ad8 ul {display: flex; flex-basis: 100%;}
+.center .center-wrap .center-ad8 ul li{}
+.center .center-wrap .center-ad8 ul li:nth-child(1){flex-basis:250%;padding-right: 6px;}
+.center .center-wrap .center-ad8 ul li:nth-child(2){flex-basis: 250%; padding-left: 6px;}
 
 
-.bottom .featured-shoes h2{margin: 0 38px 0 36px;}
-.bottom .featured-shoes{width:97%; height: 100%;overflow: hidden;}
-.bottom .featured-shoes ul{display: flex; padding: 0 0 30px 48px;}
-.bottom .featured-shoes ul li{padding-right: 12px; }
+.bottom .swiper h2{margin: 0 38px 0 36px;}
 
-.bottom .featured-shoes ul li p{display: flex;justify-content: space-between;}
+.swiper {
+  width: 97%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+
+.swiper-slide img {
+  display: block;
+  
+  height: 100%;
+  object-fit: cover;
+}
+/* .bottom .swiper-wrapper{width:90%; height: 100%; margin: 0 38px 0 36px; text-align: center;} */
+.bottom .swiper-wrapper {display: flex; 
+  /* padding: 0 0 30px 48px;  */
+  justify-content: center;}
+.bottom .swiper-wrapper {padding-right: 12px;position: relative; }
+
+.swiper-button-prev{background-color: #000;}
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom .slide1 ul li p{display: flex;justify-content: space-between;}
 
 .always-iconic {width:100%; overflow: hidden; margin: 0 auto;}
 .always-iconic ul{display: flex;width: 100%;column-gap: 1%;}
